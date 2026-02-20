@@ -1,6 +1,6 @@
 import type { IconProps } from "../../Utils/Types";
 
-const Caret_Right = ({ width, height, fill }: IconProps) => {
+const Caret_Right = ({ width, height }: IconProps) => {
   return (
     <svg
       width={width}
