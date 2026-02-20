@@ -1,0 +1,57 @@
+@import url("https://fonts.google.com/specimen/Share+Tech+Mono");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-custom-violet-500: #6d6174;
+  --color-custom-violet-700: #352d3a;
+  --color-custom-violet-900: #201b22;
+  --color-custom-beige-100: #f2ede5;
+  --color-custom-teal-200: #CFF6EE;
+  --color-custom-teal-400: #8fead6;
+  --color-custom-teal-500: #5fe1c5;
+  --color-custom-teal-700: #438476;
+
+  --color-wind: #c0f9ff;
+  --color-water: #26448e;
+  --color-earth: #573314;
+  --color-fire: #af0f06;
+  --color-shadow: #181137;
+
+  --font-share-tech-mono: "Share Tech Mono";
+}
+
+:root {
+  font-family: "Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.8;
+  font-weight: 400;
+
+  color: #f2ede5;
+  background-color: #352d3a;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
